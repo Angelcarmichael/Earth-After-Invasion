@@ -135,7 +135,7 @@ namespace StarterAssets
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
-            
+
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
@@ -386,6 +386,17 @@ namespace StarterAssets
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
+            }
+        }
+
+        private void OnTriggerStay(Collider other)
+        {
+            if (other.tag == "Door")
+            {
+                if (other.GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    other.GetComponent<AutomaticDoor>().Moving = true;
+                }
             }
         }
     }
