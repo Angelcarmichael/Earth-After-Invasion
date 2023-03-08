@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject Sword;
+    public bool CanAttack = true;
+    public float AttackCooldwon = 1.0f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (CanAttack)
+            {
+                SwordAttack();
+            }
+        }
+    }
+
+    public void SwordAttack()
+    {
+
     }
 }

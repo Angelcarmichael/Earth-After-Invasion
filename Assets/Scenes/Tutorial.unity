@@ -3117,6 +3117,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512367318}
   m_Mesh: {fileID: 4300000, guid: a335669a69f934699847642d88414623, type: 3}
+--- !u!1 &514066893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1777591198242490, guid: 3329101817c67e24fb70ba97b6168054, type: 3}
+  m_PrefabInstance: {fileID: 366059495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &523926590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6662,7 +6667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1277091336
 Transform:
   m_ObjectHideFlags: 0
@@ -6690,6 +6695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29eae4c17ebae4e48aaa086620d36c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sword: {fileID: 514066893}
+  CanAttack: 1
+  AttackCooldwon: 1
 --- !u!1001 &1280874197
 PrefabInstance:
   m_ObjectHideFlags: 0

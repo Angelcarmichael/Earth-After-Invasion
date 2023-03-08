@@ -32,4 +32,14 @@ public class MainMenuManger : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void CustomizeCharacter()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void SaveSlot()
+    {
+        SceneManager.LoadScene(4);
+    }
 }
