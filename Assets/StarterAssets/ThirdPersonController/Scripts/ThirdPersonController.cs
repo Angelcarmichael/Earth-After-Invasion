@@ -389,15 +389,15 @@ namespace StarterAssets
             }
         }
 
-        private void OnTriggerStay(Collider other)
-        {
-            if (other.tag == "Door")
-            {
-                if (other.GetComponent<AutomaticDoor>().Moving == false)
-                {
-                    other.GetComponent<AutomaticDoor>().Moving = true;
-                }
-            }
-        }
+        //private void OnTriggerStay(Collider other)
+        //{
+            //if (other.tag == "Door")
+           // {
+                //if (other.GetComponent<AutomaticDoor>().Moving == false)
+              //  {
+                   // other.GetComponent<AutomaticDoor>().Moving = true;
+              //  }
+         //   }
+        //}
     }
 }
