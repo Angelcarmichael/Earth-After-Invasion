@@ -42,4 +42,9 @@ public class MainMenuManger : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
