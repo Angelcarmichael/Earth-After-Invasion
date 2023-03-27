@@ -204,3 +204,28 @@ Received Import Request.
   path: Assets/Scenes/Title Screen.unity
   artifactKey: Guid(369d0c689a4172845b43d622e9f3b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Title Screen.unity using Guid(369d0c689a4172845b43d622e9f3b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5ea6cdf93ed6288ae343e5958a97a3') in 0.005964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 908.015978 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars
+  artifactKey: Guid(5ef7e8cb2b1939e4fbaa2f4fb83fae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars using Guid(5ef7e8cb2b1939e4fbaa2f4fb83fae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42a0bd51e981c4e19e421f28b6758b9') in 0.005716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 244.875012 seconds.
+  path: Assets/Scenes/Tutorial.unity
+  artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1945cf41e568252b5315ede724337aa1') in 0.006053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.536604 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(0769f558c3515644eb107dff1fb154ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(0769f558c3515644eb107dff1fb154ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247bef846952d0a1d2d08eb5644d9ea6') in 0.005581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 567.688940 seconds.
+  path: Assets/Sci-Fi UI/Demo_Assets/scripts/GUI_Demo.cs
+  artifactKey: Guid(62163097fd449614681ef581d7b3f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/Demo_Assets/scripts/GUI_Demo.cs using Guid(62163097fd449614681ef581d7b3f4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdf5761336df46c5f355d720b49e297') in 0.019866 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
