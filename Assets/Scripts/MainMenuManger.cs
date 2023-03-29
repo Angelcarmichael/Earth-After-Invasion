@@ -33,7 +33,7 @@ public class MainMenuManger : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void CustomizeCharacter()
+    public void SelectCharacter()
     {
         SceneManager.LoadScene(3);
     }

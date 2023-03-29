@@ -4,28 +4,19 @@ using UnityEngine;
 
 public class DisableOrEnableCharater : MonoBehaviour
 {
-    public GameObject character;
-    // Start is called before the first frame update
-    void Start()
+    //public GameObject character;
+    public GameObject male;
+    public GameObject female;
+
+    public void MaleWhenClicked()
     {
-        
+        male.SetActive(true);
+        female.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void FemaleWhenClicked()
     {
-        
-    }
-
-    public void whenButtonClicked()
-    {
-        if (character.activeInHierarchy == false)
-        {
-            character.SetActive(true);
-        }else
-        {
-            character.SetActive(false);
-        }
-
+        female.SetActive(true);
+        male.SetActive(false);
     }
 }
