@@ -15,11 +15,11 @@ C:/Users/ncarmichael/Music/Earth-After-Invasion
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52323
+49318
 Successfully changed project path to: C:/Users/ncarmichael/Music/Earth-After-Invasion
 C:/Users/ncarmichael/Music/Earth-After-Invasion
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 110.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002005 seconds.
+Registered in 0.002155 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 115.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
+- Completed reload, in  0.599 seconds
 Domain Reload Profiling:
-	ReloadAssembly (598ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (599ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (480ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (472ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (228ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004465 seconds.
+Registered in 0.004348 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 112.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 112.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
+- Completed reload, in  1.372 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1368ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1373ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1179ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1192ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (615ms)
+			SetupLoadedEditorAssemblies (614ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (160ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 357.3 MB.
-System memory in use after: 309.1 MB.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.7 MB.
+System memory in use after: 309.6 MB.
 
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4465.
-Total: 7.074600 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.222600 ms MarkObjects: 2.527400 ms  DeleteObjects: 4.021900 ms)
+Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4471.
+Total: 7.079800 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.243700 ms MarkObjects: 2.634600 ms  DeleteObjects: 3.896700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,443 +135,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 1 b.prefab
-  artifactKey: Guid(4d821b61a213fc840828e27fca18ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 1 b.prefab using Guid(4d821b61a213fc840828e27fca18ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bf9d5a561bc94d738188d103eeab77') in 0.132366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 2 b.prefab
-  artifactKey: Guid(de9f578cfdca0894e889dca3bacef698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 2 b.prefab using Guid(de9f578cfdca0894e889dca3bacef698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da532e8927f1b7e79a7ea7ade74628a3') in 0.014217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge beam 1.prefab
-  artifactKey: Guid(310f765a5920d1142afbe256c3e1f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge beam 1.prefab using Guid(310f765a5920d1142afbe256c3e1f43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7977a741ab7a03bbc27fbe69c89f75f') in 0.015163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 1.prefab
-  artifactKey: Guid(e9a17ad2c9a6e2a4c9f807f745c59b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 1.prefab using Guid(e9a17ad2c9a6e2a4c9f807f745c59b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe1de923525918baf8767c4a6335cb3') in 0.013403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 2.prefab
-  artifactKey: Guid(6b8288da9ceb3bc439fd4802c81cb452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge guardrail 2.prefab using Guid(6b8288da9ceb3bc439fd4802c81cb452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276b8b75317efa4e593f9aaa604e631e') in 0.013047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/laxer Assets/wood bridge
-  artifactKey: Guid(7fd82b2c4c53ff24dae2645b2b4e5c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge using Guid(7fd82b2c4c53ff24dae2645b2b4e5c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2cbf64e3dd021aaca457345b6ad83f') in 0.005004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 2.prefab
-  artifactKey: Guid(98dadaae72a006d48955753a8c0eb7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 2.prefab using Guid(98dadaae72a006d48955753a8c0eb7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91f7b44c212df66e63ef7079e3e69f7') in 0.016080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 1.prefab
-  artifactKey: Guid(a10d1f3307879f24fa4403887422c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 1.prefab using Guid(a10d1f3307879f24fa4403887422c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338ef335e7a4238c4854ecab5ec02767') in 0.014205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 1 b.prefab
-  artifactKey: Guid(b1748a207e089e140a13afcacbf7e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 1 b.prefab using Guid(b1748a207e089e140a13afcacbf7e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96182ed138666c8ac7ae861d0fca8c3c') in 0.013558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 1.prefab
-  artifactKey: Guid(73d2600b17c40b24cb6cc38b9b1dd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge corner 1.prefab using Guid(73d2600b17c40b24cb6cc38b9b1dd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a05296a53655427e87c4913ccbba8') in 0.013945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2 b.prefab
-  artifactKey: Guid(0d195c0b730647745af47bd4e3ac8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2 b.prefab using Guid(0d195c0b730647745af47bd4e3ac8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b023384a9b3637a8c231f0e2bf675e5e') in 0.024201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge beam 2.prefab
-  artifactKey: Guid(c4db999358520f14fb0bc15b060996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge beam 2.prefab using Guid(c4db999358520f14fb0bc15b060996eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995284e5a5e0372fd5ce55d94ac1d875') in 0.017350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2.prefab
-  artifactKey: Guid(c5fe18f281c2fa548b3124b44d5882d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge 2.prefab using Guid(c5fe18f281c2fa548b3124b44d5882d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5d49b38787574a2d7cf89fc3745e70') in 0.017802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/laxer Assets/wood bridge/poly rock cube.fbx
-  artifactKey: Guid(1bf04411ea1641842ab47d2f57baabf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/poly rock cube.fbx using Guid(1bf04411ea1641842ab47d2f57baabf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed3cb6119acfabc51e64dbc782bffb1') in 0.066486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision
-  artifactKey: Guid(4a52f4b69de7fea478b258bdbca47a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision using Guid(4a52f4b69de7fea478b258bdbca47a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967f1b7ba1d8be7fbe17bf45f0a91af8') in 0.005040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.973496 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 1 b.prefab
-  artifactKey: Guid(36d2636b6965d754d8bbf1705661c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 1 b.prefab using Guid(36d2636b6965d754d8bbf1705661c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853d7f8ea431f28c4edf7a85f82c1d8e') in 0.017370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.325902 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 1.prefab
-  artifactKey: Guid(6d13e3e1ec610134c8ec67c29c8f5f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 1.prefab using Guid(6d13e3e1ec610134c8ec67c29c8f5f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8673704bb8ef15ded7dd785344a6268e') in 0.014714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001888 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 2 b.prefab
-  artifactKey: Guid(b7e95eb81d7e0894580b48733f6126b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 2 b.prefab using Guid(b7e95eb81d7e0894580b48733f6126b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417bceb5ce2d117895fdc30dd00da9d7') in 0.015334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.345014 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 2.prefab
-  artifactKey: Guid(20987309ee214664180a77414b9ca8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge stairs 2.prefab using Guid(20987309ee214664180a77414b9ca8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee757bd74693549aa83c7715e497eacf') in 0.016435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge step 1.prefab
-  artifactKey: Guid(48aab90d7099e38428e69512f29b7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood bridge step 1.prefab using Guid(48aab90d7099e38428e69512f29b7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa01a37533d6aaee852d7a5f69379ba') in 0.013606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047850 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood plank 1.prefab
-  artifactKey: Guid(8bbcfa2418cb33746b6fa1bdebee4806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood plank 1.prefab using Guid(8bbcfa2418cb33746b6fa1bdebee4806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62658569cd8be407ab208e98e456ae7e') in 0.014063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.861644 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood plank 2.prefab
-  artifactKey: Guid(7552661bc45660240b68ea1e813bbe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood plank 2.prefab using Guid(7552661bc45660240b68ea1e813bbe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b735c8c97dc1bc77a2d1eb16c79067') in 0.014045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.824947 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood planks 1.prefab
-  artifactKey: Guid(b2db04363402831458a55ca9c7a4b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood planks 1.prefab using Guid(b2db04363402831458a55ca9c7a4b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cf18265382b9a881bb5e56af9c73c6') in 0.017185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043195 seconds.
-  path: Assets/laxer Assets/wood bridge/Prefabs with collision/wood planks 2.prefab
-  artifactKey: Guid(722ceecca9b985545b583c859f7b5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Prefabs with collision/wood planks 2.prefab using Guid(722ceecca9b985545b583c859f7b5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73249d1eb3c3b91c34126e9f353c90c') in 0.014581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.725744 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 2 b.fbx
-  artifactKey: Guid(ca83b731cbff6004e974bd4e8ed1f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 2 b.fbx using Guid(ca83b731cbff6004e974bd4e8ed1f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ef79ab584f7002dca7b453a48db9f9') in 0.018229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge stairs 2 b.fbx
-  artifactKey: Guid(3eb169fb1f6b2e343b6d69790e692db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge stairs 2 b.fbx using Guid(3eb169fb1f6b2e343b6d69790e692db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80889169f37186f4cfce98568e99068') in 0.019240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 2.fbx
-  artifactKey: Guid(e8f648f7087178047bb20d5847979198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 2.fbx using Guid(e8f648f7087178047bb20d5847979198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35819f0bc726961fb61226218bf0a29d') in 0.017031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge step 1.fbx
-  artifactKey: Guid(cb33cd42b6b5e484597cfb72a9db9d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge step 1.fbx using Guid(cb33cd42b6b5e484597cfb72a9db9d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6711d5d84b0911382859a672e89ff22') in 0.017658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood plank 1.fbx
-  artifactKey: Guid(aa840363d7b846a4da37e2cd73dc5652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood plank 1.fbx using Guid(aa840363d7b846a4da37e2cd73dc5652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe56650ecae9bf3a749a0819dea3060b') in 0.016731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge stairs 1.fbx
-  artifactKey: Guid(1a96f24288d26a841bcc9e49708d6ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge stairs 1.fbx using Guid(1a96f24288d26a841bcc9e49708d6ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7386c2ec1c6b961811bcc2380c6097') in 0.017819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood planks 2.fbx
-  artifactKey: Guid(9c27ba361b455ad419d220d34de4c594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood planks 2.fbx using Guid(9c27ba361b455ad419d220d34de4c594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701424f50488ca57ea49bda6d6f0f332') in 0.018389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood planks 1.fbx
-  artifactKey: Guid(8e340b831ca9f844d9764a036410f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood planks 1.fbx using Guid(8e340b831ca9f844d9764a036410f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462d17caaa9945e67655f61e7df55001') in 0.017960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge stairs 2.fbx
-  artifactKey: Guid(47f897160ad54cb48ac959d4a311f1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge stairs 2.fbx using Guid(47f897160ad54cb48ac959d4a311f1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20ffed8b6053ed008660ec29df05582') in 0.018347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge stairs 1 b.fbx
-  artifactKey: Guid(5319e7d224bb8fa4dbeff4040b7edb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge stairs 1 b.fbx using Guid(5319e7d224bb8fa4dbeff4040b7edb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8e650bcbf1d1a3ce1d5d153b0017ac') in 0.016713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood plank 2.fbx
-  artifactKey: Guid(35fbda434fb9d254b95096cc01bc7400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood plank 2.fbx using Guid(35fbda434fb9d254b95096cc01bc7400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3b3a071abb66753a4b7f93f6d96558') in 0.016735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.244606 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/beam colli1.fbx
-  artifactKey: Guid(6490f65b39b87f7429fc4d655d0c230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/beam colli1.fbx using Guid(6490f65b39b87f7429fc4d655d0c230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08acec5eae41da7ae43c6200c327e2ee') in 0.018604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/beam colli2.fbx
-  artifactKey: Guid(2803bd5183c38cb4ca30224e8459c11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/beam colli2.fbx using Guid(2803bd5183c38cb4ca30224e8459c11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47c70e1ad1aaabff75a67fbc04c16bd') in 0.017834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/guardrail colli 2a.fbx
-  artifactKey: Guid(10dc9e391bf9feb47b02789cf787ed30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/guardrail colli 2a.fbx using Guid(10dc9e391bf9feb47b02789cf787ed30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e263d608f48f11ecb2ceb411342579d9') in 0.017057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/guardrail colli 2b.fbx
-  artifactKey: Guid(f983e0e4df4ff0246b3fef20e2ce08e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/guardrail colli 2b.fbx using Guid(f983e0e4df4ff0246b3fef20e2ce08e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f2c46c4c09b31ae9e3322f9bedff33') in 0.015409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/corner1 colli.fbx
-  artifactKey: Guid(c9e16012fd35733498749a174011dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/corner1 colli.fbx using Guid(c9e16012fd35733498749a174011dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab2a2eaaaae3d10ed9c205fb474ebea') in 0.041180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/stairs colli1.fbx
-  artifactKey: Guid(e79cddd31538c9b41a4d2e3c92a77ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/stairs colli1.fbx using Guid(e79cddd31538c9b41a4d2e3c92a77ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d160a96128825ba1b2b161020b12dc5') in 0.017299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/stairs colli2.fbx
-  artifactKey: Guid(2c1cc43e7c5cb9346b386ff9307b1e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/stairs colli2.fbx using Guid(2c1cc43e7c5cb9346b386ff9307b1e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da49d5ef5038397a7ca44de8c56613ca') in 0.055524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/laxer Assets/wood bridge/Collision Meshes/guardrail colli.fbx
-  artifactKey: Guid(482f26e16ec42cf41a8df50aa800a5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Collision Meshes/guardrail colli.fbx using Guid(482f26e16ec42cf41a8df50aa800a5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b89d80052121f6f467373389d083932') in 0.016817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.292327 seconds.
-  path: Assets/laxer Assets/wood bridge/demo.unity
-  artifactKey: Guid(6fbf0fffb8060a6459dacb6d0dfdf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/demo.unity using Guid(6fbf0fffb8060a6459dacb6d0dfdf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe5d887999d26558aedeb16cac34851') in 0.005753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.016859 seconds.
-  path: Assets/Scenes/Game Scenes/Game Map.unity
-  artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game Scenes/Game Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd222d88157b2874f50cd8d00d9fd903d') in 0.007069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 187.702961 seconds.
-  path: Assets/Monqo Sci-Fi Car/_Prefab
-  artifactKey: Guid(ac7aa221f1b090a4ba6b2fa7285c86c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monqo Sci-Fi Car/_Prefab using Guid(ac7aa221f1b090a4ba6b2fa7285c86c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d62b87c27accd6e83fc20c20b6bb403') in 0.006183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.134356 seconds.
-  path: Assets/Monqo Sci-Fi Car/_Prefab/ScifiCar_Prefab.prefab
-  artifactKey: Guid(257a2d584dbadce4884c7d8df6c17d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monqo Sci-Fi Car/_Prefab/ScifiCar_Prefab.prefab using Guid(257a2d584dbadce4884c7d8df6c17d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5b740267eae6505e7f869e3b9ff358') in 0.210921 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004660 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1198ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1028ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (497ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (181ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3921 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 347.2 MB.
-System memory in use after: 299.0 MB.
-
-Unloading 97 unused Assets to reduce memory usage. Loaded Objects now: 4491.
-Total: 11.106700 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.315100 ms MarkObjects: 4.292500 ms  DeleteObjects: 6.029000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 206.916230 seconds.
-  path: Assets/Cyberpunk Car/Cyberpunk_Car.prefab
-  artifactKey: Guid(374b3e745e406c94da343c665f086584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cyberpunk Car/Cyberpunk_Car.prefab using Guid(374b3e745e406c94da343c665f086584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab71660e3ed0cd6455efe8cf724c6058') in 0.154861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 675.031591 seconds.
-  path: Assets/DreamForestTree/TreesModels/RedWood 2.prefab
-  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b395f010b882c37268d3a50c8f517db6') in 0.065782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab
-  artifactKey: Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab using Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b5e3614641a6a62e4e7a66ac5e6caf') in 0.014048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Flower1.prefab
-  artifactKey: Guid(092dfbd1d1f007a448a41cded731f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Flower1.prefab using Guid(092dfbd1d1f007a448a41cded731f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb50ca4e5480cd77098e8996b2699dfb') in 0.013331 seconds 
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Tree_01.prefab
+  artifactKey: Guid(6e6f4b2fae88c514c9fe54b33a00e51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Tree_01.prefab using Guid(6e6f4b2fae88c514c9fe54b33a00e51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840559b18a9e34516859896246c7cbb8') in 0.192468 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000170 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Grass1.prefab
-  artifactKey: Guid(a022b6294d5967e499a6638d8af5a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Grass1.prefab using Guid(a022b6294d5967e499a6638d8af5a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f4946f792169757cde8da0a64a6d3b') in 0.012847 seconds 
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Tree_09.prefab
+  artifactKey: Guid(4a8060f5ff8cf6d449db1a220601398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Tree_09.prefab using Guid(4a8060f5ff8cf6d449db1a220601398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f584f7cb6e566bfab083f5c5d033a24c') in 0.053805 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 137.193912 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif
-  artifactKey: Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif using Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac7d5a81372d364eb0a61941211f8e5') in 0.030204 seconds 
+  Time since last request: 0.000259 seconds.
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B.prefab
+  artifactKey: Guid(91a5828b0d87cc048be91599336fea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B.prefab using Guid(91a5828b0d87cc048be91599336fea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c963b15bedbead0e6c77662a0a476e32') in 0.030174 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Grass And Flowers Pack 1/Ground Textures/Groundplants 1_D.jpg
-  artifactKey: Guid(7def4f1ef16215342ba8bb0f9e8b057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Groundplants 1_D.jpg using Guid(7def4f1ef16215342ba8bb0f9e8b057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bc0802b9394af2036e180ca60da53f') in 0.023426 seconds 
+  Time since last request: 112.071602 seconds.
+  path: Assets/Destroyed_city_FREE/Textures/grassHR2 02.jpg
+  artifactKey: Guid(6cc026e4f65a35f4d8bdb1470f28e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Textures/grassHR2 02.jpg using Guid(6cc026e4f65a35f4d8bdb1470f28e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e572b42341f1b453556832186861ef') in 0.021922 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.667640 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif
-  artifactKey: Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif using Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b2c8fc8b1bd34086ab7918dd8eb746') in 0.011598 seconds 
+  Time since last request: 143.655714 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab
+  artifactKey: Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab using Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609eecfa250a40129d54654605218bee') in 0.023447 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.912444 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer
-  artifactKey: Guid(34a7124a250b6314f803cba5555e7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/snow.terrainlayer using Guid(34a7124a250b6314f803cba5555e7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cb9e8130df21d7165451daeafad5e6') in 0.019036 seconds 
+  Time since last request: 1224.033317 seconds.
+  path: Assets/TerrainData_4840fc6f-0785-4ac5-89b2-ff67d2e8081e.asset
+  artifactKey: Guid(650df2b95a4f9e44da6cf442423f1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_4840fc6f-0785-4ac5-89b2-ff67d2e8081e.asset using Guid(650df2b95a4f9e44da6cf442423f1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ece80499b97b17cfb07392cad21f947') in 0.033547 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.027957 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif
-  artifactKey: Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif using Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd349fa00518d43b61ba5eb82918b9077') in 0.013333 seconds 
+  Time since last request: 0.000200 seconds.
+  path: Assets/TerrainData_64186f8c-bd65-4232-a091-9c5505eb5edd.asset
+  artifactKey: Guid(e9f88f1efa497b0408438a70415397f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_64186f8c-bd65-4232-a091-9c5505eb5edd.asset using Guid(e9f88f1efa497b0408438a70415397f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc20d15c22bdbf5c8ea5d0b51344d31') in 0.019376 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif
-  artifactKey: Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif using Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cfb486adb945a05e79d20819e5a334') in 0.011183 seconds 
+  Time since last request: 0.000193 seconds.
+  path: Assets/TerrainData_71156d2a-164b-476e-9fe9-0de4ba21b9b2.asset
+  artifactKey: Guid(56e9300b43bd5184ea6f5cb2ad1a634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_71156d2a-164b-476e-9fe9-0de4ba21b9b2.asset using Guid(56e9300b43bd5184ea6f5cb2ad1a634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1c9784d1269566d9b63f0912553f26') in 0.020516 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1124.190319 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif
-  artifactKey: Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif using Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a78acccc289b2c64909a166ce6f15d5') in 0.014674 seconds 
+  Time since last request: 47.553337 seconds.
+  path: Assets/Mountain Terrain/Prefab/Terrain_01_low2.prefab
+  artifactKey: Guid(c13335fbad29c4c459e2c93137e42312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Prefab/Terrain_01_low2.prefab using Guid(c13335fbad29c4c459e2c93137e42312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ed91e1f821a8c35716a2badb959493') in 0.034150 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.852556 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
-  artifactKey: Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer using Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b41aa45013c2e80896d0840cdb279b') in 0.019730 seconds 
+  Time since last request: 0.001425 seconds.
+  path: Assets/Mountain Terrain/Prefab/acacia1_2.prefab
+  artifactKey: Guid(7f3ed28755306714c8c5308e9f757276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Prefab/acacia1_2.prefab using Guid(7f3ed28755306714c8c5308e9f757276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3992f265c7c05831080dc6a580ab0dc1') in 0.029787 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif
-  artifactKey: Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif using Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3927da245dd6de433e513c7616b34c') in 0.012864 seconds 
+  Time since last request: 0.000239 seconds.
+  path: Assets/Mountain Terrain/Prefab/Stone_03_low.prefab
+  artifactKey: Guid(2faa4fc3b7b1fc84c8b1b2f1af42617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Prefab/Stone_03_low.prefab using Guid(2faa4fc3b7b1fc84c8b1b2f1af42617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4a24419c608da6efb9191291fe2ec7') in 0.022739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif
-  artifactKey: Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif using Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63707614dd49e5983a2e9e7c7ca675f8') in 0.013141 seconds 
+  Time since last request: 5.151327 seconds.
+  path: Assets/Mountain Terrain/Texture/Terrain_01_low_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(83eae4fd4661b424c90c6306c7dc10d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Texture/Terrain_01_low_DefaultMaterial_AlbedoTransparency.png using Guid(83eae4fd4661b424c90c6306c7dc10d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72112bef99c5a82175cc596550dd246') in 0.020796 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 145.036572 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/ground_road.tga
-  artifactKey: Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/ground_road.tga using Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9424ec9b49863de9b0bd2d642c2c81') in 0.066473 seconds 
+  Time since last request: 0.000223 seconds.
+  path: Assets/Mountain Terrain/Texture/Terrain_01_low_DefaultMaterial_Normal.png
+  artifactKey: Guid(5e4229615c627224fafee85995c1b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Texture/Terrain_01_low_DefaultMaterial_Normal.png using Guid(5e4229615c627224fafee85995c1b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28d95aa586f2e2a39e2cdc36c796f03') in 0.024076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.143355 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer
-  artifactKey: Guid(4ddd81448660a664692ea37a97f4e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer using Guid(4ddd81448660a664692ea37a97f4e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b52341648683ac31b405a3ce09ccd5a') in 0.014580 seconds 
+  Time since last request: 0.000283 seconds.
+  path: Assets/Mountain Terrain/Texture/Terrain_01_low_DefaultMaterial_SpecularSmoothness.png
+  artifactKey: Guid(b3596dc99feb977409e2e55db56ce3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Texture/Terrain_01_low_DefaultMaterial_SpecularSmoothness.png using Guid(b3596dc99feb977409e2e55db56ce3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f48a1c41e67ccdef35f6d7d17085c9') in 0.012948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.537197 seconds.
+  path: Assets/Mountain Terrain/Trees/acacia1_2.obj
+  artifactKey: Guid(0240d8417b13dd648a4709b9169abdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Trees/acacia1_2.obj using Guid(0240d8417b13dd648a4709b9169abdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6da06bd3f1d575b7ffdf50f12f3bf96') in 0.060125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005869 seconds.
+  path: Assets/Mountain Terrain/stone_03/stone_3.mat
+  artifactKey: Guid(13ea7ad49dfbacf47b47d7d326b5a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/stone_03/stone_3.mat using Guid(13ea7ad49dfbacf47b47d7d326b5a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cd28035d1ef7ed4a40a22e4c9f045c') in 0.026947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_AO.png
+  artifactKey: Guid(3e8311f62e29d3f48bcf6a4d8f3eb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_AO.png using Guid(3e8311f62e29d3f48bcf6a4d8f3eb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4146256c85dd0301956dd4968d9e097b') in 0.012556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_Normal.png
+  artifactKey: Guid(a36c16f0d3904884f987362a2eb03643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_Normal.png using Guid(a36c16f0d3904884f987362a2eb03643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbe2adc21c41e54d8e85ea529899041') in 0.014358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_SpecularSmoothness.png
+  artifactKey: Guid(35a976a505be1fe4495f1677ca807c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_SpecularSmoothness.png using Guid(35a976a505be1fe4495f1677ca807c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d666d2527dd550a74b670303cceab3') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(62d382627a84bbd4885047103725ad86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/stone_03/Stone_03_low_DefaultMaterial_AlbedoTransparency.png using Guid(62d382627a84bbd4885047103725ad86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d14306a31586bc973a01d4ec08aeb01') in 0.012479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.521160 seconds.
+  path: Assets/Mountain Terrain/Misc/Stone_03_low.obj
+  artifactKey: Guid(f091ed37a079fb94daa9d7045be0a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Misc/Stone_03_low.obj using Guid(f091ed37a079fb94daa9d7045be0a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907252e891a86ce89e70641fd3ddcace') in 0.038154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Mountain Terrain/Misc/Terrain_01_low2.obj
+  artifactKey: Guid(dab2c1b588eef2344b03658ce566d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Misc/Terrain_01_low2.obj using Guid(dab2c1b588eef2344b03658ce566d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22879ffcb2c8fa78389db08fc28ae39f') in 0.027518 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
