@@ -15,11 +15,11 @@ C:/Users/ncarmichael/Music/Earth-After-Invasion
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58952
+58832
 Successfully changed project path to: C:/Users/ncarmichael/Music/Earth-After-Invasion
 C:/Users/ncarmichael/Music/Earth-After-Invasion
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 175.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 104.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -35,327 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.227848 seconds.
+Registered in 0.002199 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 115.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.835 seconds
+- Completed reload, in  0.587 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3835ms)
-		BeginReloadAssembly (2635ms)
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (2639ms)
+		EndReloadAssembly (472ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (225ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (218ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.560286 seconds.
+Registered in 0.004402 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 120.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 111.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.714 seconds
+- Completed reload, in  1.264 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6718ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (6529ms)
-			LoadAssemblies (3763ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (927ms)
+			SetupTypeCache (285ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1680ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (474ms)
-				ProcessInitializeOnLoadMethodAttributes (969ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 358.2 MB.
-System memory in use after: 310.0 MB.
-
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4472.
-Total: 6.941600 ms (FindLiveObjects: 0.294100 ms CreateObjectMapping: 0.213400 ms MarkObjects: 2.574700 ms  DeleteObjects: 3.858500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge 1.fbx
-  artifactKey: Guid(bd1d8a7a8a027e744b79b2bb49fc8826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge 1.fbx using Guid(bd1d8a7a8a027e744b79b2bb49fc8826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2a74296f9706cc69ae95a3842f0922') in 0.285635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tannenzweig 0 LD.fbx
-  artifactKey: Guid(1fcd3b13c042b984da7fbfdada578afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tannenzweig 0 LD.fbx using Guid(1fcd3b13c042b984da7fbfdada578afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b629cb89e73d1e3a673ceeda23af792') in 0.034965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge beam 1.fbx
-  artifactKey: Guid(36c9c4e85a6903044bce22d0ee162636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge beam 1.fbx using Guid(36c9c4e85a6903044bce22d0ee162636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d03f180997a1f5986624b8cf6ee70d4') in 0.023010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tannenzweig 2.fbx
-  artifactKey: Guid(3a89f2fd2c306954fa77392a5f2f33f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tannenzweig 2.fbx using Guid(3a89f2fd2c306954fa77392a5f2f33f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65d0bc8055a6b0bcb1ba586ad884d3f') in 0.039394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge 2.fbx
-  artifactKey: Guid(d83cca0b95b262a4f97c8860f820cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge 2.fbx using Guid(d83cca0b95b262a4f97c8860f820cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e412ad155d82099bd569f09965a2736') in 0.022057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 1.fbx
-  artifactKey: Guid(7f44a04a962999e43be08ed8780f42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 1.fbx using Guid(7f44a04a962999e43be08ed8780f42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db4aa157d675c9a34afa8709fdcd49f') in 0.022280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/laxer Assets/creek/grass/grass2.prefab
-  artifactKey: Guid(d2b210aa8b77047498caf5fbc908fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/grass/grass2.prefab using Guid(d2b210aa8b77047498caf5fbc908fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bad171fa24fa7d9f387fb768ad5502') in 0.032628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tannenzweig 4.fbx
-  artifactKey: Guid(2b05b4fb0c5ca1745b726d91fbe5e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tannenzweig 4.fbx using Guid(2b05b4fb0c5ca1745b726d91fbe5e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36901e1e9c3016645ace48604966e892') in 0.022631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tannenzweig 5.fbx
-  artifactKey: Guid(0cc14def25ee01b4ca3ec6c55cdca2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tannenzweig 5.fbx using Guid(0cc14def25ee01b4ca3ec6c55cdca2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaa6bcf0edcbf533f29dcda33744a7f') in 0.021389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge 1 b.fbx
-  artifactKey: Guid(e9490403698431d43b792b0d642b18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge 1 b.fbx using Guid(e9490403698431d43b792b0d642b18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6c28a0cbebb17ca3c84a9aba1ce6d9') in 0.021709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge beam 2.fbx
-  artifactKey: Guid(759c9b669f086a441a014db6b21bfea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge beam 2.fbx using Guid(759c9b669f086a441a014db6b21bfea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9692ef0598d76f50c589e903d1dae996') in 0.020143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tannenzweig 1.fbx
-  artifactKey: Guid(30be9383d647a9f43bae5680e8b65d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tannenzweig 1.fbx using Guid(30be9383d647a9f43bae5680e8b65d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909217331412906a4c6c971c901e0b6a') in 0.023109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge 2 b.fbx
-  artifactKey: Guid(ebcf811a6cbd6424e9ce5e6b9ac9762a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge 2 b.fbx using Guid(ebcf811a6cbd6424e9ce5e6b9ac9762a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2925b9adba12a918f6f14487aaea0b') in 0.021178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge corner 2.fbx
-  artifactKey: Guid(55a63d70b8b4ab74380ea370b84aa068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge corner 2.fbx using Guid(55a63d70b8b4ab74380ea370b84aa068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79de20f03aeab388a4ae0bbeace4fb74') in 0.020159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tannenzweig 0.fbx
-  artifactKey: Guid(61063e2c43cc5e4429fea0cbfb21cac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tannenzweig 0.fbx using Guid(61063e2c43cc5e4429fea0cbfb21cac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f23092fb27b9cb149ecfadce75c9354') in 0.023375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 1 b.fbx
-  artifactKey: Guid(d453ecc9be8f5dd489a053f2cb3a4d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge guardrail 1 b.fbx using Guid(d453ecc9be8f5dd489a053f2cb3a4d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97d7ecfbe3eda9a880be4240c5df1be') in 0.022341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tanne_src.fbx
-  artifactKey: Guid(8e549363af6df1843b9e17e472a37c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tanne_src.fbx using Guid(8e549363af6df1843b9e17e472a37c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40334019c29724aca6b169b2bb89c60') in 0.022981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/laxer Assets/wood bridge/Models/wood bridge corner 1.fbx
-  artifactKey: Guid(cf3098106c28926499f89dca24126723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/wood bridge/Models/wood bridge corner 1.fbx using Guid(cf3098106c28926499f89dca24126723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c2793abfc88be5eee22d6472821dc6') in 0.021227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/laxer Assets/creek/Pine1/tannenzweig 3.fbx
-  artifactKey: Guid(16d901ea46cc94148aa74b13c29822d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/Pine1/tannenzweig 3.fbx using Guid(16d901ea46cc94148aa74b13c29822d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c5ddbbdd502a72cc0e2162a5d9ffd') in 0.021689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/laxer Assets/creek/grass/grass1.fbx
-  artifactKey: Guid(6c22f4f87e6cb3d478cdc30ee8aac136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/laxer Assets/creek/grass/grass1.fbx using Guid(6c22f4f87e6cb3d478cdc30ee8aac136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f1b78d862ef886c559b439ebd705e7') in 0.025788 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005109 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1311ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1127ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (556ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (170ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3921 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 348.2 MB.
-System memory in use after: 300.0 MB.
-
-Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 4497.
-Total: 8.853600 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.394300 ms MarkObjects: 3.630800 ms  DeleteObjects: 4.408100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004306 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1072ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (446ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (573ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (143ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (1ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3921 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 348.3 MB.
-System memory in use after: 300.1 MB.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.2 MB.
+System memory in use after: 310.1 MB.
 
-Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 4512.
-Total: 7.216700 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.222800 ms MarkObjects: 2.670800 ms  DeleteObjects: 4.002700 ms)
+Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4472.
+Total: 7.365100 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.186000 ms MarkObjects: 2.667600 ms  DeleteObjects: 4.211700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -368,3 +133,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Geopipe/Pack02/NYBlock02/Models/NYBlock02.fbx
+  artifactKey: Guid(18f01519ec11cfa488d5624509000a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack02/NYBlock02/Models/NYBlock02.fbx using Guid(18f01519ec11cfa488d5624509000a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ba51d111774c9d7222217dcd1d879f') in 26.965518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.635778 seconds.
+  path: Assets/MSFMC_RadarDish/Prefabs
+  artifactKey: Guid(4d3455176aa76fe49b6c05d655b56310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/Prefabs using Guid(4d3455176aa76fe49b6c05d655b56310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf594b652b4dd8000a80d5fcb15e560c') in 0.006827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077444 seconds.
+  path: Assets/MSFMC_RadarDish/Prefabs/MSFMC_RadarDish.prefab
+  artifactKey: Guid(eeade5eac92f39e439a9bf65b8f4007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/Prefabs/MSFMC_RadarDish.prefab using Guid(eeade5eac92f39e439a9bf65b8f4007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd16a490e43e5462125ad8a165de94cc') in 0.041183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.293912 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/msfmc_RadarDish.FBX
+  artifactKey: Guid(f48aae87c7088c74cb5cd9f72c243996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/msfmc_RadarDish.FBX using Guid(f48aae87c7088c74cb5cd9f72c243996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fd4eb9bc94e99cc189bec43138b7a3') in 0.035722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.910100 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.mat
+  artifactKey: Guid(a232e04fd0603294f9006ad263f856e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.mat using Guid(a232e04fd0603294f9006ad263f856e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbef121406e9147e5b92335bffac75b') in 0.040418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Metalic.png
+  artifactKey: Guid(2a3b49cca44dbba48b6ab8712d2dab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Metalic.png using Guid(2a3b49cca44dbba48b6ab8712d2dab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0fc7f1abd072d806e0d217f1e3085f') in 0.047203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Emissive.png
+  artifactKey: Guid(fa8c09ec94c725c40905b9fbf74f0ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Emissive.png using Guid(fa8c09ec94c725c40905b9fbf74f0ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd0eb86396124d3f5364feff807bb99') in 0.012939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.psd
+  artifactKey: Guid(148bbc3dee0ffcf4b87fcd18df73986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.psd using Guid(148bbc3dee0ffcf4b87fcd18df73986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a707785437f94c7d477a92f4039c016') in 0.011774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Normal.png
+  artifactKey: Guid(4dea364ddc85d724c8d23c0261d70138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Normal.png using Guid(4dea364ddc85d724c8d23c0261d70138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273f62002aa3aa9855ab7a6599bcda9d') in 0.015722 seconds 
