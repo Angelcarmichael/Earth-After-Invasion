@@ -1,0 +1,261 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.37f1 (8c66806a0c04) revision 9201280'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 65165 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ncarmichael/Music/Earth-After-Invasion
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58832
+Successfully changed project path to: C:/Users/ncarmichael/Music/Earth-After-Invasion
+C:/Users/ncarmichael/Music/Earth-After-Invasion
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 104.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.37f1 (8c66806a0c04)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ncarmichael/Music/Earth-After-Invasion/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro RTX 5000 (ID=0x1eb5)
+    Vendor:   
+    VRAM:     16170 MB
+    Driver:   31.0.15.1740
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002199 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 115.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (472ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.2 MB.
+System memory in use after: 310.1 MB.
+
+Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4472.
+Total: 7.365100 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.186000 ms MarkObjects: 2.667600 ms  DeleteObjects: 4.211700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Geopipe/Pack02/NYBlock02/Models/NYBlock02.fbx
+  artifactKey: Guid(18f01519ec11cfa488d5624509000a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geopipe/Pack02/NYBlock02/Models/NYBlock02.fbx using Guid(18f01519ec11cfa488d5624509000a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ba51d111774c9d7222217dcd1d879f') in 26.965518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.635778 seconds.
+  path: Assets/MSFMC_RadarDish/Prefabs
+  artifactKey: Guid(4d3455176aa76fe49b6c05d655b56310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/Prefabs using Guid(4d3455176aa76fe49b6c05d655b56310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf594b652b4dd8000a80d5fcb15e560c') in 0.006827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077444 seconds.
+  path: Assets/MSFMC_RadarDish/Prefabs/MSFMC_RadarDish.prefab
+  artifactKey: Guid(eeade5eac92f39e439a9bf65b8f4007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/Prefabs/MSFMC_RadarDish.prefab using Guid(eeade5eac92f39e439a9bf65b8f4007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd16a490e43e5462125ad8a165de94cc') in 0.041183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.293912 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/msfmc_RadarDish.FBX
+  artifactKey: Guid(f48aae87c7088c74cb5cd9f72c243996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/msfmc_RadarDish.FBX using Guid(f48aae87c7088c74cb5cd9f72c243996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fd4eb9bc94e99cc189bec43138b7a3') in 0.035722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.910100 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.mat
+  artifactKey: Guid(a232e04fd0603294f9006ad263f856e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.mat using Guid(a232e04fd0603294f9006ad263f856e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbef121406e9147e5b92335bffac75b') in 0.040418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Metalic.png
+  artifactKey: Guid(2a3b49cca44dbba48b6ab8712d2dab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Metalic.png using Guid(2a3b49cca44dbba48b6ab8712d2dab7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0fc7f1abd072d806e0d217f1e3085f') in 0.047203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Emissive.png
+  artifactKey: Guid(fa8c09ec94c725c40905b9fbf74f0ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Emissive.png using Guid(fa8c09ec94c725c40905b9fbf74f0ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd0eb86396124d3f5364feff807bb99') in 0.012939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.psd
+  artifactKey: Guid(148bbc3dee0ffcf4b87fcd18df73986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01.psd using Guid(148bbc3dee0ffcf4b87fcd18df73986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a707785437f94c7d477a92f4039c016') in 0.011774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Normal.png
+  artifactKey: Guid(4dea364ddc85d724c8d23c0261d70138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSFMC_RadarDish/3D Models/Materials/radarDish_Texture01_Normal.png using Guid(4dea364ddc85d724c8d23c0261d70138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273f62002aa3aa9855ab7a6599bcda9d') in 0.015722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1286.569320 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/GrillPlate_snaps002.prefab
+  artifactKey: Guid(0309318c4d3de3b4eb23dc02c52d6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/GrillPlate_snaps002.prefab using Guid(0309318c4d3de3b4eb23dc02c52d6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8976fc1f084c59f46546bb25925c5881') in 0.037481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau01.tif
+  artifactKey: Guid(626e11c44313fda43a6979c9a04cd12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau01.tif using Guid(626e11c44313fda43a6979c9a04cd12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c416eec1481ce56915a0ba4197747def') in 0.029331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau01.brush
+  artifactKey: Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_plateau01.brush using Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83a5abeceab8a02e7e34e42c29abaa5') in 0.021178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Meshes/GrillPlate_snaps002.asset
+  artifactKey: Guid(cf9055618b93ac647864b9625b54d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/SciFi_Industrial/Prefabs/Decor/Meshes/GrillPlate_snaps002.asset using Guid(cf9055618b93ac647864b9625b54d1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30a8df27101d6c02178831a34f31758') in 0.012395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau03.tif
+  artifactKey: Guid(116d48bc82e4c0a4683cbd79927b4596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau03.tif using Guid(116d48bc82e4c0a4683cbd79927b4596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34201980973581acdadde79ffa1d51f7') in 0.020798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau02.tif
+  artifactKey: Guid(7fce2600db05ae54ea39d9e5681232cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau02.tif using Guid(7fce2600db05ae54ea39d9e5681232cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feab3498ce7389c0dd9c580223ac8787') in 0.016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.293822 seconds.
+  path: Assets/ZRNAssets/PQAssets/Query-Chan/Sounds/Voice/02_Shouts/Congratulations.wav
+  artifactKey: Guid(1be5835fd1a9144d59a583744bcb4f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZRNAssets/PQAssets/Query-Chan/Sounds/Voice/02_Shouts/Congratulations.wav using Guid(1be5835fd1a9144d59a583744bcb4f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbc8bf929abfb3fe429015f19e52474') in 0.056735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/flat_mountain01.tif
+  artifactKey: Guid(d2a704d1b2d8ad948aab36a028a684b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/flat_mountain01.tif using Guid(d2a704d1b2d8ad948aab36a028a684b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4712e6f49224aab074ee4ffa18c3df1e') in 0.017998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Mountain Terrain/Sci-Fi Styled Modular Pack/Models/floor_2_no_lattice.fbx
+  artifactKey: Guid(7f962bb89688620469dbe0e850e34b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain/Sci-Fi Styled Modular Pack/Models/floor_2_no_lattice.fbx using Guid(7f962bb89688620469dbe0e850e34b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f12e56b5829547b95f7805eca7cb505') in 0.049492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.266947 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs
+  artifactKey: Guid(1502544826723c649a5fc06e98ddb567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs using Guid(1502544826723c649a5fc06e98ddb567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030edf0854bb8dda7caf1e5949d00827') in 0.006360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087341 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample Long.prefab
+  artifactKey: Guid(2116aafc135bfb6439d391c4fb83f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample Long.prefab using Guid(2116aafc135bfb6439d391c4fb83f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc84e58a5c64d7ebf467b77da72b9d9') in 0.055472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample.prefab
+  artifactKey: Guid(115574f175eb5514f9c26670e37c23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample.prefab using Guid(115574f175eb5514f9c26670e37c23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8ca411e227c16a4dc51b39b0d39009') in 0.012724 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
